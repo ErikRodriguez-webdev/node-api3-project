@@ -3,5 +3,5 @@ const server = require("./server");
 const PORT = 5000;
 
 server.listen(PORT, () => {
-  console.log(`API IS UP ON PORT ${PORT}`);
+  console.log(`Server is up on PORT ${PORT}`);
 });
